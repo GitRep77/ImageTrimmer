@@ -15,7 +15,7 @@ Image Trimmer is a simple yet precise Python script designed to trim the edges o
 ## Features
 
 - Automatically finds the first image in the script's directory.
-- Trims the image to user-defined dimensions.
+- Trims the image to user-defined dimensions and allows specification of trimming direction (e.g., top, bottom, left, right, or combinations).
 - Outputs the trimmed image as "Trimmed.png".
 - Easy to use, even for those with minimal Python experience.
 
@@ -57,6 +57,7 @@ Open the `trim_image.py` script in your preferred text editor. Modify the `desir
 # Variables to specify desired width and height
 desired_width = 1560
 desired_height = 960
+trim_from = 'top-left'  # Change this to 'top', 'bottom', 'left', 'right', 'top-left', etc.
 ```
 
 ### Step 4: Run the Script
@@ -105,7 +106,7 @@ Image Trimmer is a simple yet precise Python script designed to trim the edges o
 ## Features
 
 - Automatically finds the first image in the script's directory.
-- Trims the image to user-defined dimensions.
+- Trims the image to user-defined dimensions and allows specification of trimming direction (e.g., top, bottom, left, right, or combinations).
 - Outputs the trimmed image as "Trimmed.png".
 - Easy to use, even for those with minimal Python experience.
 
@@ -147,6 +148,7 @@ Open the `trim_image.py` script in your preferred text editor. Modify the `desir
 # Variables to specify desired width and height
 desired_width = 1560
 desired_height = 960
+trim_from = 'top-left'  # Change this to 'top', 'bottom', 'left', 'right', 'top-left', etc.
 ```
 
 ### Step 4: Run the Script
